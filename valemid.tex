@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage[active,tightpage]{preview}
+\setlength\PreviewBorder{20pt}
+\everymath{\displaystyle}
+
+\begin{document}
+	\begin{preview}
+		\section*{Kõveruseta joon (sirge)}
+		\begin{itemize}
+			\item $\vec{s} = (s_1, s_2)$ – sirge sihivektor.
+			\item $\vec{n} = (n_1, n_2)$ – sirge normaalvektor.
+			\item $P(a_1, a_2)$ – mingi fikseeritud punkt sirgel.
+			\item $Ax + By + C = 0$ – sirge üldvõrrand. $\vec{n} = (A, B)$.
+			\item $\left\{
+			\begin{aligned}
+				x = s_1t + a_1 \\[-2pt] y = s_2 t + a_2
+			\end{aligned}
+			\right.$ – sirge parameetriline võrrand.
+			\item $y = kx + b$ – sirge võrrand tõusuga $k$. Arv $b$ on sirge väärtus kohal $x = 0$.
+		\end{itemize}
+		\section*{Venitatud ring (ellips)}
+		\begin{itemize}
+			\item $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$ – ellipsi kanooniline võrrand.
+			\item $c$ – kaugus keskelt kumbagi fookusesse.
+			\item $a$ – pikem pooltelg
+			\item $b$ – lühem pooltelg
+			\item $b^2 = a^2 - c^2$ – selline on $a$, $b$ ja $c$ sõltuvus üksteisest.
+			\item $\varepsilon = \frac{c}{a}$ – ekstsentrilisus. See, kui suur osa on keskme-fookuse vahe keskme-tipu vahest. 1 ss, kui on täiesti välja venitatud. 0 ss, kui on \emph{perfectus circulus}.
+			\item $p = \frac{b^2}{a}$ – fokaalparameeter. On ellipsi kõrgus fookuse kohal.
+			\item $\begin{aligned}
+				r_1 &= a + \varepsilon x, \vspace{-100pt} \\[-2pt]
+				r_2 &= a - \varepsilon x
+			\end{aligned}$ – sedasi saab avaldada ellipsi punkti $P(x,y)$ fokaalraadiused.
+			\item $x = -\frac{a}{\varepsilon}$\; ja\; $x = \frac{a}{\varepsilon}$\; on ellipsi juhtsirged. Miinusega on vasakpoolne, plussiga parempoolne.
+			\item $\varepsilon = \frac{r}{d}$ – ekstsentrilisust saab kujutada ka sedasi, kus $r$ on punkti fokaalraadius ja $d$ on selle punkti kaugus samapoolse juhtsirgeni. 
+			\item $\gamma(t) = (a \cos{t}, b \sin{t})$ – ellipsi parameetriline võrrand pooltelgede kaudu ja parameetriga $t$, mis on hulgast $\left[0, 2\pi\right]$
+		\end{itemize}
+		
+		\section*{Lihtne kauss (parabool)}
+		\begin{itemize}
+			\item $y = a(x-h)^2 + k$ – parabooli üldkuju. $P(h, k)$ on parabooli haripunkti koordinaadid. Kasutada, et nullida v teha baasiteisendus.
+			\item $y^2 = 2px$ – võrrand kanoonilises koordinaadisüsteemis. Parabool küllili.
+			\item $p$ – fokaalparameeter e kaugus juhtteljest fookuseni. Parabooli tipp asub täpselt nende kahe vahel koordinaatide alguspunktis.
+			\item $F\left(\frac p2 , 0\right)$ – fookus
+			\item $y = -\frac p2$ – juhtsirge
+			
+		\end{itemize}
+		
+		\section*{Puudutav sirge (teist järku joone puutuja)}
+		\begin{itemize}
+			\item $P(x_0, y_0)$ – mingi punkt joonel.
+			\item $\frac{x_0 x}{a^2} + \frac{y_0 y}{b^2} = 1$ – ellipsi puutuja ellipsi punktis $P$.
+			\item $\frac{x_0 x}{a^2} - \frac{y_0 y}{b^2} = 1$ – hüperbooli puutuja hüperbooli punktis $P$. Erineb ellipsi omast ainult märgi poolest.
+			\item $y\kern 0.07em y_0 = p(x+x_0)$ – parabooli puutuja
+			\item \emph{Ellipsi} puutuja moodustab võrdsed nurgad puutepunkti fokaalraadiustega.
+			\item \emph{Hüperbooli} puutuja poolitab nurga, mille moodustavad puutepunkti fokaalraadiused.
+			\item \emph{Parabooli} puutuja asetseb nii, et fokaalraadiuse ja sümmeetriatelja nurgad puutuja suhtes on võrdsed.
+		
+		\end{itemize}
+		
+	\end{preview}
+\end{document}
